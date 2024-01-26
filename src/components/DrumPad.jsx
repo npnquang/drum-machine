@@ -13,7 +13,7 @@ export default function DrumPad({ name, keyBind, soundSrc }) {
   }
 
   return (
-    <div className="drum-pad shadow p-3 mb-5 bg-primary rounded" id={name} onClick={handleClick}>
+    <div className="drum-pad shadow p-3 mb-5 bg-primary rounded text-warning" id={name} onClick={handleClick}>
       <audio className='clip' id={keyBind} src={soundSrc}></audio>
       {keyBind}
     </div>

@@ -32,7 +32,7 @@ function App() {
         <DrumPad keyBind={sound.keyBind} key={sound.name} name={sound.name} soundSrc={sound.soundSrc} />
       ))}
     </div>
-    <div id="display" className='bg-primary bg-gradient'></div>
+    <div id="display" className='bg-primary bg-gradient rounded text-warning'></div>
     </>
   )
 }
